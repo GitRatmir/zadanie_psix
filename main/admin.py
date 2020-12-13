@@ -10,6 +10,6 @@ class CoursesAdmin(admin.ModelAdmin):
 
 @admin.register(Instructors)
 class InstructorsAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'vor_name')
-    list_display_links = ['id', 'name', 'vor_name']
+    list_display = ('id', 'name',)
+    list_display_links = ['id', 'name',]
 # Register your models here.
