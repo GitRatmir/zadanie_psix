@@ -3,6 +3,6 @@ from django.http import HttpResponseGone
 
 
 def index(request):
-    return HttpResponseGone('Ратмир')
+    return render(request,'main/base.html')
 
 # Create your views here.
